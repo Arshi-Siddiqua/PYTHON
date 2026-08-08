@@ -1,3 +1,5 @@
+#WAP to ask the user to enter names of their 3 fav movies and store them in a list
+
 movies=[]
 
 movie1= input("Enter your 1st movie:")
