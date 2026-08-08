@@ -14,3 +14,4 @@ print(Tuple.index(3))
 # It will show how many times the given element is in the tuple
 
 print(Tuple.count(5))
+
