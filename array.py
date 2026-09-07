@@ -1,12 +1,9 @@
-car1= "BMW"
-car2= "Porsche"
-car3= "Bently Bentega"
-car4= "Lamborghini"
-car5 = "Ferrari"
-car6= "Rolls Royce"
-car7= "Masratei"
+Array= [10, 25, 30, 45, 50]
+Target= 30 #targeted value
 
-cars=[car1, car2, car3, car4, car5, car6, car7]
-print (cars)
-cars.append("Audi")
-print (cars)
+for i in range (len(Array)): #Go in every index of the array
+    if Array[i] == Target: #Cheking if the current value is equal to the targeted value
+        print("Element found at index {i}") #Printing the index of the targeted value
+        break
+else:
+    print(-1) #If the targeted value is not found then it will print -1
